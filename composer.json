@@ -1,0 +1,26 @@
+{
+    "name": "ui/component",
+    "description": "This is a package that add a user interface component to app.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Frimpong",
+            "email": "tfrimpong1987@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ui\\Component\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ui\\Component\\InterfaceServiceProvider"
+            ]
+        }
+    }
+}
